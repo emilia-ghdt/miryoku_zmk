@@ -1,0 +1,9 @@
+name: 'Build Siren Song'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano_v2"]'
+      shield: '["siren_song_left","siren_song_right"]'
