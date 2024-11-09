@@ -1,4 +1,4 @@
 outboard_repository=emilia-ghdt/siren-song-zmk
 outboard_ref=main
-outboard_from=config/boards/shields/siren_song
+outboard_from=boards/shields/siren_song
 outboard_to=boards/shields/siren_song
