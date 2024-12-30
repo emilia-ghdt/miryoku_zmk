@@ -7,4 +7,4 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["siren_song_left","siren_song_right"]'
-      custom_config: '["#define MIRYOKU_KLUDGE_GLOBALSHIFTFUNCTIONS"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_GLOBALSHIFTFUNCTIONS", "#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
